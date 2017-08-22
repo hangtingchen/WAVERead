@@ -36,4 +36,4 @@ It is **C code to read WAVE files**.
 | sampled data | $M_c\times N_c\times N_s$ | the audio data | little |
 | pad byte | 0 or 1 | padding byte if sampled data size if odd | |
 
-#How to use these c code?
+# How to use these c code?
