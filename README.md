@@ -8,7 +8,7 @@ It is **C code to read WAVE files**.
 
 # The 44-byte-long head in the WAVE file
 
-- $N_c$ Number of channels
+- $$N_c$$ Number of channels
 - $N_s$ Number of samples
 - $F$ Sample rate
 - $M_s$ Each sample's length in byte
