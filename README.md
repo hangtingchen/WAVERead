@@ -1,12 +1,12 @@
 ﻿# WAVERead : What is it ?
 It is **C code to read WAVE files**.
 
-#What kind of Wave file do we want to read?
+# What kind of Wave file do we want to read?
 1. It should be a WAVE file.
 2. The Format Code in the Wave file should be 0x001, which means WAVE\_FORMAT_PCM. That is, the file is non-compressed PCM.
 3. There is no information chunks that precede or follow the sound data(data chunk).That is, we presume that the preamble in the file header is exactly 44 bytes long. The assumption is strong and not safe, however, it fits most of the WAVE records.
 
-#The 44-byte-long head in the WAVE file
+# The 44-byte-long head in the WAVE file
 
 - $N_c$ Number of channels
 - $N_s$ Number of samples
