@@ -1,5 +1,5 @@
 ﻿# WAVERead : What is it ?
-It is **C code to read WAVE files**. More details should be find in [Hangtingchen's Homepage](https://hangtinghen.github.io/homepage/).
+It is **C code to read WAVE files**.
 
 # What kind of Wave file do we want to read?
 1. It should be a WAVE file.
